@@ -44,8 +44,18 @@
 ### [GH-017] Bug: Redundant "Greve - date - " in CP strike messages
 - **Status:** Completed ✅
 
+### [GH-018] Feature: Past events filtered out
+- **Status:** Completed ✅
+
+### [GH-019] Feature: All operator cards clickable (entire card)
+- **Status:** Completed ✅
+
+### [GH-020] Bug: Metro Lisboa scraper reading wrong DOM elements (missed line problems)
+- **Status:** Completed ✅
+- **Details:** Was reading `.cellEstado.linhaCell` (CTA text), now reads `#statusAmarela/Azul/Verde/Vermelha` for actual line status
+
 ### Infrastructure & DevOps
-- **[GH-011] Deploy: Vercel (Frontend)**
-- **[GH-012] Deploy: Render (Backend)**
+- **[GH-011] Deploy: Vercel (Frontend)** — deployed (CORS needs Render env var)
+- **[GH-012] Deploy: Render (Backend)** — deployed (needs `CORS_ORIGIN` set)
 - **[GH-013] Config: Custom Domain (Amen.pt)**
 - **[GH-014] Monetization: Google AdSense Config**

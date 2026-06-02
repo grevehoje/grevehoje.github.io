@@ -389,10 +389,7 @@ export class FertagusScraper implements Scraper {
 
 export class MetroLisboaScraper implements Scraper {
   name = 'Metro de Lisboa';
-  // The line status page just redirects to Twitter; the news page has actual strike notices
   url = 'https://www.metrolisboa.pt/informar/noticias/';
-  statusUrl = 'https://www.metrolisboa.pt/viajar/estado-das-linhas/';
-  // Official AJAX endpoint for real-time line status
   ajaxUrl = 'https://www.metrolisboa.pt/wp-admin/admin-ajax.php?action=estado_linha_ajax_2022_nova_action';
 
   async scrape(): Promise<StrikeInfo> {
@@ -401,24 +398,42 @@ export class MetroLisboaScraper implements Scraper {
         headers: { 'User-Agent': USER_AGENT }
       });
       const $ = cheerio.load(data);
-      
-      // Look for status in the AJAX response
-      const statuses = $('.columnEstado').find('div.cellEstado.linhaCell');
-      let isProblem = false;
-      
-      statuses.each((_, el) => {
-        const text = $(el).text().toLowerCase();
-        if (text.includes('interrompida') || text.includes('perturbação') || text.includes('atrasos')) {
-          isProblem = true;
-        }
-      });
 
+      const lines = [
+        { id: 'statusAmarela',  name: 'Linha Amarela' },
+        { id: 'statusAzul',     name: 'Linha Azul' },
+        { id: 'statusVerde',    name: 'Linha Verde' },
+        { id: 'statusVermelha', name: 'Linha Vermelha' },
+      ];
+
+      const problems: string[] = [];
+      for (const line of lines) {
+        const el = $(`#${line.id}`);
+        if (el.length) {
+          const text = el.find('div').first().text().trim().toLowerCase();
+          if (text !== 'normal') {
+            problems.push(`${line.name}: ${text}`);
+          }
+        }
+      }
+
+      if (problems.length === 0) {
+        return {
+          operator: this.name,
+          status: 'green',
+          message: 'Circulação normal.',
+          lastChecked: new Date().toISOString(),
+          upcomingEvents: []
+        };
+      }
+
+      const combined = problems.join('; ');
       return {
         operator: this.name,
-        status: isProblem ? 'red' : 'green',
-        message: isProblem ? 'Perturbações detectadas nas linhas.' : 'Circulação normal.',
+        status: 'yellow',
+        message: `Perturbações: ${combined}`,
         lastChecked: new Date().toISOString(),
-        ...(isProblem ? { sourceUrl: this.url } : {}),
+        sourceUrl: this.url,
         upcomingEvents: []
       };
     } catch (error) {

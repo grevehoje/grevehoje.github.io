@@ -101,25 +101,30 @@ function App() {
       <section className="section">
         <h2 className="section-title">Estado Atual</h2>
         <div className="operators">
-          {data?.operators.map(op => (
-            <div key={op.operator} className="card">
-              <div className="card-info">
-                <h3>{op.operator}</h3>
-                <p>{op.message}</p>
-                <span className="last-checked">
-                  Verificado às {new Date(op.lastChecked).toLocaleTimeString('pt-PT')}
-                </span>
-              </div>
-              <div className="card-right">
-                <div className={`indicator indicator-${op.status}`}></div>
-                {op.sourceUrl && (
-                  <a href={op.sourceUrl} target="_blank" rel="noopener noreferrer" className="source-link">
-                    Info oficial ↗
-                  </a>
-                )}
-              </div>
-            </div>
-          ))}
+          {data?.operators.map(op => {
+            const Tag = op.sourceUrl ? 'a' : 'div'
+            return (
+              <Tag
+                key={op.operator}
+                href={op.sourceUrl}
+                target={op.sourceUrl ? '_blank' : undefined}
+                rel={op.sourceUrl ? 'noopener noreferrer' : undefined}
+                className={`card ${op.sourceUrl ? 'clickable' : ''}`}
+              >
+                <div className="card-info">
+                  <h3>{op.operator}</h3>
+                  <p>{op.message}</p>
+                  <span className="last-checked">
+                    Verificado às {new Date(op.lastChecked).toLocaleTimeString('pt-PT')}
+                  </span>
+                </div>
+                <div className="card-right">
+                  <div className={`indicator indicator-${op.status}`}></div>
+                  {op.sourceUrl && <span className="source-link">Info oficial ↗</span>}
+                </div>
+              </Tag>
+            )
+          })}
         </div>
       </section>
 
