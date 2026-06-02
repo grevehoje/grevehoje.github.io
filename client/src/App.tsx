@@ -49,8 +49,9 @@ function App() {
       setLoading(true)
       setError(null)
       try {
-        const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:3001'
-        const res = await fetch(`${apiBase}/api/status`)
+        const apiBase = import.meta.env.VITE_API_URL || ''
+        const url = apiBase ? `${apiBase}/api/status` : '/data/status.json'
+        const res = await fetch(url)
         if (!res.ok) throw new Error('Falha ao obter dados')
         const json = await res.json()
         if (!cancelled) setData(json)
