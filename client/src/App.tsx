@@ -160,7 +160,7 @@ function App() {
       </footer>
 
       <div className="sticky-anchor">
-        <div className="ad-content">ESPAÇO PUBLICITÁRIO (STICKY)</div>
+        <div className="ad-content"></div>
       </div>
     </div>
   )
