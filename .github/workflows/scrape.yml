@@ -18,7 +18,8 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: npx --package=ts-node --package=typescript ts-node --project server/tsconfig.json scripts/scrape.ts
+      - working-directory: server
+        run: pnpm run scrape
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
