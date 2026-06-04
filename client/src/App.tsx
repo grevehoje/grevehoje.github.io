@@ -93,7 +93,7 @@ function App() {
             </div>
             <h1>Transportes em Portugal</h1>
             <p className="subtext">
-              Última atualização: {new Date(data.lastUpdate).toLocaleTimeString('pt-PT')}
+              Última atualização: {new Date(data.lastUpdate).toLocaleString('pt-PT')}
             </p>
           </>
         ) : null}
