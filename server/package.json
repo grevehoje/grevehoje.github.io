@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "scrape": "ts-node --project tsconfig.json ../scripts/scrape.ts",
+    "scrape": "ts-node --transpile-only --project tsconfig.json ../scripts/scrape.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
