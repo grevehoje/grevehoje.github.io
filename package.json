@@ -1,0 +1,12 @@
+{
+  "name": "grevehoje-root",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter \"*\" run dev",
+    "install-all": "pnpm install",
+    "build": "pnpm --filter \"*\" run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
