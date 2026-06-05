@@ -29,3 +29,13 @@ jobs:
           git add client/public/data/status.json
           git diff --cached --quiet || git commit -m "Update strike data"
           git push
+      - name: Update data on gh-pages (live site)
+        run: |
+          cp client/public/data/status.json /tmp/status.json
+          git fetch origin gh-pages || true
+          git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
+          mkdir -p data
+          cp /tmp/status.json data/status.json
+          git add data/status.json
+          git diff --cached --quiet || git commit -m "Update strike data"
+          git push origin gh-pages
