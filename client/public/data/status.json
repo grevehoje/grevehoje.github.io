@@ -1,34 +1,26 @@
 {
-  "hasStrikes": true,
-  "lastUpdate": "2026-06-02T23:23:49.152Z",
+  "hasStrikes": false,
+  "lastUpdate": "2026-06-05T00:00:18.565Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
-      "status": "red",
-      "message": "Greve em curso hoje",
-      "lastChecked": "2026-06-02T23:23:47.842Z",
-      "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-3-junho",
-      "upcomingEvents": [
-        {
-          "startDate": "2026-06-03T11:00:00.000Z",
-          "isConfirmed": true,
-          "description": "Greve - 3 de junho - Serviços Mínimos",
-          "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-3-junho"
-        }
-      ]
+      "status": "yellow",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-06-05T00:00:17.605Z",
+      "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-02T23:23:48.546Z",
+      "lastChecked": "2026-06-05T00:00:18.565Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "yellow",
       "message": "Perturbações: Hospital S. João - Vila d'Este: condicionada",
-      "lastChecked": "2026-06-02T23:23:49.152Z",
+      "lastChecked": "2026-06-05T00:00:18.308Z",
       "sourceUrl": "https://www.metrodoporto.pt/pages/1",
       "upcomingEvents": []
     },
@@ -36,23 +28,15 @@
       "operator": "Carris",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-02T23:23:48.063Z",
+      "lastChecked": "2026-06-05T00:00:17.792Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
-      "status": "red",
-      "message": "Greve em curso hoje",
-      "lastChecked": "2026-06-02T23:23:48.067Z",
-      "sourceUrl": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Greve-Geral-3-de-junho",
-      "upcomingEvents": [
-        {
-          "startDate": "2026-06-03T11:00:00.000Z",
-          "isConfirmed": true,
-          "description": ".........Greve Geral - 3 de junho",
-          "sourceUrl": "https://www.fertagus.pt/Fertagus-pt/Viajar/Comunicados-e-Campanhas/Greve-Geral-3-de-junho"
-        }
-      ]
+      "status": "yellow",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-06-05T00:00:17.952Z",
+      "upcomingEvents": []
     }
   ]
 }
