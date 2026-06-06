@@ -1,26 +1,26 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-06-06T14:17:07.877Z",
+  "lastUpdate": "2026-06-06T15:51:51.826Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-06T14:17:07.184Z",
+      "lastChecked": "2026-06-06T15:51:51.049Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-06T14:17:07.877Z",
+      "lastChecked": "2026-06-06T15:51:51.826Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "yellow",
       "message": "Perturbações: Hospital S. João - Vila d'Este: condicionada",
-      "lastChecked": "2026-06-06T14:17:07.686Z",
+      "lastChecked": "2026-06-06T15:51:51.423Z",
       "sourceUrl": "https://www.metrodoporto.pt/pages/1",
       "upcomingEvents": []
     },
@@ -28,14 +28,14 @@
       "operator": "Carris",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-06T14:17:07.177Z",
+      "lastChecked": "2026-06-06T15:51:51.019Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-06T14:17:07.190Z",
+      "lastChecked": "2026-06-06T15:51:51.064Z",
       "upcomingEvents": []
     }
   ]
