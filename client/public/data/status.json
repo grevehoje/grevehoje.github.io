@@ -1,12 +1,12 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-06-21T11:49:30.234Z",
+  "lastUpdate": "2026-06-21T14:17:22.292Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
       "message": "Greve prevista - 30 de junho",
-      "lastChecked": "2026-06-21T11:47:15.894Z",
+      "lastChecked": "2026-06-21T14:17:16.536Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-20-30-junho",
       "upcomingEvents": [
         {
@@ -21,28 +21,28 @@
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-21T11:47:16.932Z",
+      "lastChecked": "2026-06-21T14:17:17.148Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
-      "status": "yellow",
-      "message": "Não foi possível obter dados oficiais.",
-      "lastChecked": "2026-06-21T11:49:30.234Z",
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-06-21T14:17:17.015Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-21T11:47:16.143Z",
+      "lastChecked": "2026-06-21T14:17:16.624Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-06-21T11:47:16.203Z",
+      "lastChecked": "2026-06-21T14:17:22.292Z",
       "upcomingEvents": []
     }
   ]
