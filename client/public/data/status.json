@@ -1,19 +1,19 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-08-10T01:59:06.470Z",
+  "lastUpdate": "2026-08-10T04:03:39.294Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-10T01:59:05.735Z",
+      "lastChecked": "2026-08-10T04:03:35.680Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "yellow",
       "message": "Perturbações: Linha Amarela: encerrada; Linha Azul: encerrada; Linha Verde: encerrada; Linha Vermelha: encerrada",
-      "lastChecked": "2026-08-10T01:59:06.470Z",
+      "lastChecked": "2026-08-10T04:03:36.652Z",
       "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
       "upcomingEvents": []
     },
@@ -21,21 +21,21 @@
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-10T01:59:06.073Z",
+      "lastChecked": "2026-08-10T04:03:35.654Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-10T01:59:05.728Z",
+      "lastChecked": "2026-08-10T04:03:35.320Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-10T01:59:05.939Z",
+      "lastChecked": "2026-08-10T04:03:39.294Z",
       "upcomingEvents": []
     }
   ]
