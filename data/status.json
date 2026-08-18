@@ -1,26 +1,26 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-08-18T15:49:00.706Z",
+  "lastUpdate": "2026-08-18T16:34:08.588Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-18T15:48:49.831Z",
+      "lastChecked": "2026-08-18T16:33:45.193Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-18T15:48:47.235Z",
+      "lastChecked": "2026-08-18T16:33:53.199Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "yellow",
       "message": "Perturbações: Estádio do Dragão - Sr. de Matosinhos: condicionada; Fânzeres - Senhora da Hora: condicionada",
-      "lastChecked": "2026-08-18T15:48:46.704Z",
+      "lastChecked": "2026-08-18T16:33:43.593Z",
       "sourceUrl": "https://www.metrodoporto.pt/pages/1",
       "upcomingEvents": []
     },
@@ -28,14 +28,14 @@
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-18T15:48:46.175Z",
+      "lastChecked": "2026-08-18T16:33:43.457Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-18T15:49:00.706Z",
+      "lastChecked": "2026-08-18T16:34:08.588Z",
       "upcomingEvents": []
     }
   ]
