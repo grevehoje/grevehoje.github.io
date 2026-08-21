@@ -1,40 +1,40 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-08-21T15:15:07.049Z",
+  "lastUpdate": "2026-08-21T15:52:05.542Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-21T15:14:54.108Z",
+      "lastChecked": "2026-08-21T15:51:44.550Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-21T15:14:54.689Z",
+      "lastChecked": "2026-08-21T15:51:45.821Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-21T15:14:54.516Z",
+      "lastChecked": "2026-08-21T15:51:45.029Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-21T15:14:53.957Z",
+      "lastChecked": "2026-08-21T15:51:44.840Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-08-21T15:15:07.049Z",
+      "lastChecked": "2026-08-21T15:52:05.542Z",
       "upcomingEvents": []
     }
   ]
