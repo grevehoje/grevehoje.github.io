@@ -1,12 +1,12 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-10-24T11:56:36.793Z",
+  "lastUpdate": "2026-10-24T15:43:16.619Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
       "message": "Greve prevista - 30 de outubro",
-      "lastChecked": "2026-10-24T11:56:36.793Z",
+      "lastChecked": "2026-10-24T15:43:16.296Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-30-out",
       "upcomingEvents": [
         {
@@ -21,28 +21,28 @@
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-24T11:56:36.756Z",
+      "lastChecked": "2026-10-24T15:43:16.619Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-24T11:56:36.637Z",
+      "lastChecked": "2026-10-24T15:43:16.429Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-24T11:56:36.553Z",
+      "lastChecked": "2026-10-24T15:43:16.401Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-24T11:56:36.501Z",
+      "lastChecked": "2026-10-24T15:43:16.229Z",
       "upcomingEvents": []
     }
   ]
