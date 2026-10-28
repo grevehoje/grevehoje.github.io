@@ -1,49 +1,48 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-10-28T06:04:39.843Z",
+  "lastUpdate": "2026-10-28T12:57:22.054Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
       "message": "Greve prevista - 30 de outubro",
-      "lastChecked": "2026-10-28T06:04:39.766Z",
+      "lastChecked": "2026-10-28T12:57:21.995Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-30-out",
       "upcomingEvents": [
         {
           "startDate": "2026-10-30T12:00:00.000Z",
           "isConfirmed": true,
-          "description": "Greve - 30 de outubro de 2026",
+          "description": "Greve - 30 de outubro de 2026 - DESCONVOCADA",
           "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-30-out"
         }
       ]
     },
     {
       "operator": "Metro de Lisboa",
-      "status": "yellow",
-      "message": "Perturbações: Linha Amarela: encerrada; Linha Azul: encerrada; Linha Verde: encerrada; Linha Vermelha: encerrada",
-      "lastChecked": "2026-10-28T06:04:39.842Z",
-      "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-10-28T12:57:22.054Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-28T06:04:39.789Z",
+      "lastChecked": "2026-10-28T12:57:22.013Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-28T06:04:39.159Z",
+      "lastChecked": "2026-10-28T12:57:21.744Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
-      "message": "Não foi possível obter dados oficiais.",
-      "lastChecked": "2026-10-28T06:04:39.073Z",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-10-28T12:57:21.996Z",
       "upcomingEvents": []
     }
   ]
