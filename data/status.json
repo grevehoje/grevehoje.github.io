@@ -1,27 +1,19 @@
 {
-  "hasStrikes": true,
-  "lastUpdate": "2026-10-30T22:50:06.504Z",
+  "hasStrikes": false,
+  "lastUpdate": "2026-10-31T02:06:24.212Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
-      "status": "red",
-      "message": "Greve em curso hoje",
-      "lastChecked": "2026-10-30T22:50:06.343Z",
-      "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-30-out",
-      "upcomingEvents": [
-        {
-          "startDate": "2026-10-30T12:00:00.000Z",
-          "isConfirmed": true,
-          "description": "Greve - 30 de outubro de 2026 - DESCONVOCADA",
-          "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-30-out"
-        }
-      ]
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-10-31T02:06:06.802Z",
+      "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "yellow",
-      "message": "Perturbações: Linha Verde: condicionada",
-      "lastChecked": "2026-10-30T22:50:06.325Z",
+      "message": "Perturbações: Linha Amarela: encerrada; Linha Azul: encerrada; Linha Verde: encerrada; Linha Vermelha: encerrada",
+      "lastChecked": "2026-10-31T02:06:06.876Z",
       "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
       "upcomingEvents": []
     },
@@ -29,21 +21,21 @@
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-30T22:50:06.339Z",
+      "lastChecked": "2026-10-31T02:06:06.785Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-30T22:50:06.011Z",
+      "lastChecked": "2026-10-31T02:06:06.531Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-10-30T22:50:06.504Z",
+      "lastChecked": "2026-10-31T02:06:24.212Z",
       "upcomingEvents": []
     }
   ]
