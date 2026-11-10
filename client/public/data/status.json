@@ -1,12 +1,12 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-11-10T18:50:55.089Z",
+  "lastUpdate": "2026-11-10T23:55:45.834Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
       "message": "Greve prevista - 12 de novembro",
-      "lastChecked": "2026-11-10T18:50:54.569Z",
+      "lastChecked": "2026-11-10T23:55:45.045Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-renfe-10-12-novembro",
       "upcomingEvents": [
         {
@@ -19,31 +19,30 @@
     },
     {
       "operator": "Metro de Lisboa",
-      "status": "yellow",
-      "message": "Perturbações: Linha Amarela: por troços",
-      "lastChecked": "2026-11-10T18:50:55.089Z",
-      "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-11-10T23:55:45.834Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-10T18:50:54.533Z",
+      "lastChecked": "2026-11-10T23:55:45.084Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-10T18:50:54.609Z",
+      "lastChecked": "2026-11-10T23:55:45.114Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-10T18:50:54.854Z",
+      "lastChecked": "2026-11-10T23:55:45.085Z",
       "upcomingEvents": []
     }
   ]
