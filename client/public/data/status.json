@@ -1,27 +1,19 @@
 {
-  "hasStrikes": true,
-  "lastUpdate": "2026-11-12T22:52:41.360Z",
+  "hasStrikes": false,
+  "lastUpdate": "2026-11-13T03:15:20.656Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
-      "status": "red",
-      "message": "Greve em curso hoje",
-      "lastChecked": "2026-11-12T22:52:40.990Z",
-      "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-renfe-10-12-novembro",
-      "upcomingEvents": [
-        {
-          "startDate": "2026-11-12T12:00:00.000Z",
-          "isConfirmed": true,
-          "description": "Greve na RENFE - dia 12 de novembro - Desconvocada",
-          "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-renfe-10-12-novembro"
-        }
-      ]
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-11-13T03:15:10.940Z",
+      "upcomingEvents": []
     },
     {
       "operator": "Metro de Lisboa",
       "status": "yellow",
-      "message": "Perturbações: Linha Azul: por troços",
-      "lastChecked": "2026-11-12T22:52:41.360Z",
+      "message": "Perturbações: Linha Amarela: encerrada; Linha Azul: encerrada; Linha Verde: encerrada; Linha Vermelha: encerrada",
+      "lastChecked": "2026-11-13T03:15:11.120Z",
       "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
       "upcomingEvents": []
     },
@@ -29,21 +21,21 @@
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-12T22:52:41.080Z",
+      "lastChecked": "2026-11-13T03:15:11.074Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-12T22:52:40.905Z",
+      "lastChecked": "2026-11-13T03:15:10.918Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-12T22:52:41.270Z",
+      "lastChecked": "2026-11-13T03:15:20.656Z",
       "upcomingEvents": []
     }
   ]
