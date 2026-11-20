@@ -1,12 +1,12 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-11-20T04:21:52.688Z",
+  "lastUpdate": "2026-11-20T13:27:42.116Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
       "message": "Greve prevista - 27 de novembro",
-      "lastChecked": "2026-11-20T04:21:44.057Z",
+      "lastChecked": "2026-11-20T13:27:41.730Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-23a27-nov",
       "upcomingEvents": [
         {
@@ -19,31 +19,30 @@
     },
     {
       "operator": "Metro de Lisboa",
-      "status": "yellow",
-      "message": "Perturbações: Linha Amarela: encerrada; Linha Azul: encerrada; Linha Verde: encerrada; Linha Vermelha: encerrada",
-      "lastChecked": "2026-11-20T04:21:44.111Z",
-      "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-11-20T13:27:42.116Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-20T04:21:44.075Z",
+      "lastChecked": "2026-11-20T13:27:41.845Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-20T04:21:43.844Z",
+      "lastChecked": "2026-11-20T13:27:41.797Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-20T04:21:52.688Z",
+      "lastChecked": "2026-11-20T13:27:41.906Z",
       "upcomingEvents": []
     }
   ]
