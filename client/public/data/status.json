@@ -1,49 +1,48 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-11-23T04:01:15.027Z",
+  "lastUpdate": "2026-11-23T14:40:50.287Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
-      "message": "Greve prevista - 27 de novembro",
-      "lastChecked": "2026-11-23T04:01:14.438Z",
+      "message": "Greve prevista - 25 de novembro",
+      "lastChecked": "2026-11-23T14:40:49.937Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-23a27-nov",
       "upcomingEvents": [
         {
-          "startDate": "2026-11-27T12:00:00.000Z",
+          "startDate": "2026-11-25T12:00:00.000Z",
           "isConfirmed": true,
-          "description": "Greve - 23 a 27 de novembro de 2026",
+          "description": "Greve - serviços mínimos a 24 e 25 de novembro",
           "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-23a27-nov"
         }
       ]
     },
     {
       "operator": "Metro de Lisboa",
-      "status": "yellow",
-      "message": "Perturbações: Linha Amarela: encerrada; Linha Azul: encerrada; Linha Verde: encerrada; Linha Vermelha: encerrada",
-      "lastChecked": "2026-11-23T04:01:15.027Z",
-      "sourceUrl": "https://www.metrolisboa.pt/informar/noticias/",
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-11-23T14:40:50.287Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-23T04:01:14.368Z",
+      "lastChecked": "2026-11-23T14:40:49.803Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-23T04:01:14.118Z",
+      "lastChecked": "2026-11-23T14:40:49.629Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-23T04:01:14.134Z",
+      "lastChecked": "2026-11-23T14:40:49.869Z",
       "upcomingEvents": []
     }
   ]
