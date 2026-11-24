@@ -1,12 +1,12 @@
 {
   "hasStrikes": false,
-  "lastUpdate": "2026-11-24T12:08:11.294Z",
+  "lastUpdate": "2026-11-24T22:27:53.961Z",
   "operators": [
     {
       "operator": "CP - Comboios de Portugal",
       "status": "yellow",
       "message": "Greve prevista - 25 de novembro",
-      "lastChecked": "2026-11-24T12:08:11.218Z",
+      "lastChecked": "2026-11-24T22:27:53.747Z",
       "sourceUrl": "https://www.cp.pt/pt/detalhe-aviso/greve-23a27-nov",
       "upcomingEvents": [
         {
@@ -21,29 +21,28 @@
       "operator": "Metro de Lisboa",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-24T12:08:11.282Z",
+      "lastChecked": "2026-11-24T22:27:53.961Z",
       "upcomingEvents": []
     },
     {
       "operator": "Metro do Porto",
-      "status": "yellow",
-      "message": "Perturbações: Hospital S. João - Vila d'Este: interrompida",
-      "lastChecked": "2026-11-24T12:08:11.294Z",
-      "sourceUrl": "https://www.metrodoporto.pt/pages/1",
+      "status": "green",
+      "message": "Circulação normal.",
+      "lastChecked": "2026-11-24T22:27:53.770Z",
       "upcomingEvents": []
     },
     {
       "operator": "Carris",
       "status": "green",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-24T12:08:11.116Z",
+      "lastChecked": "2026-11-24T22:27:53.719Z",
       "upcomingEvents": []
     },
     {
       "operator": "Fertagus",
       "status": "yellow",
       "message": "Circulação normal.",
-      "lastChecked": "2026-11-24T12:08:11.219Z",
+      "lastChecked": "2026-11-24T22:27:53.720Z",
       "upcomingEvents": []
     }
   ]
